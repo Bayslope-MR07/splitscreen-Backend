@@ -80,7 +80,7 @@ const visitSchema = new mongoose.Schema({
 const Visit = mongoose.model('Visit', visitSchema);
 
 // CORS middleware
-const allowedOrigins = ['https://frontendsplitscreen.vercel.app', 'https://split-screen-inky.vercel.app','https://splitscreen.in','http://localhost:3000'];
+const allowedOrigins = ['https://splitscreen-frontend.onrender.com', 'https://splitscreen-backend.onrender.com', 'https://frontendsplitscreen.vercel.app', 'https://split-screen-inky.vercel.app','https://splitscreen.in','http://localhost:3000'];
 app.use(cors({
   origin: function (origin, callback) {
     if (!origin || allowedOrigins.indexOf(origin) !== -1 || origin.endsWith('.onrender.com')) {
@@ -783,4 +783,5 @@ app.listen(PORT, () => {
 });
 
 module.exports = app;
+
 
