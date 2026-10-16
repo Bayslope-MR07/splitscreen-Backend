@@ -1,0 +1,54 @@
+# Node.js modules
+/node_modules
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Coverage
+/coverage
+
+# Production build
+/build
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.temp
+
+# MacOS system files
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux system files
+*~ 
+
+*.zip
+
